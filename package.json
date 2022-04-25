@@ -4,6 +4,9 @@
   "publisher": "chenchunyang",
   "description": "快速创建react组件文件",
   "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/chenchunyang123/AddReactComp"
+  },
   "engines": {
     "vscode": "^1.66.0"
   },
