@@ -9,7 +9,7 @@ export default class CompTemplete {
     return `import styles from "./index.less";
 
 export default () => {
-  return <div classNames={styles.${this.key}}>init</div>;
+  return <div className={styles.${this.key}}>init</div>;
 };
 `;
   }
