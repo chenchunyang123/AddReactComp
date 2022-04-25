@@ -28,7 +28,8 @@
       "explorer/context": [
         {
           "command": "ccy.addTemplete",
-          "group": "group1"
+          "group": "group1",
+          "when": "explorerResourceIsFolder"
         }
       ]
     }
