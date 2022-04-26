@@ -19,7 +19,7 @@ export function activate(context: vscode.ExtensionContext) {
           },
         })
         .then(async function (msg) {
-          if (msg === "") {
+          if (["", undefined].includes(msg)) {
             vscode.window.showErrorMessage("输入为空，创建失败");
             return;
           }
